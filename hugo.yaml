@@ -1,0 +1,51 @@
+baseURL: "https://stevedaigle.ca/"
+title: "Steve Daigle"
+theme: "PaperMod"
+
+defaultContentLanguage: fr
+enableRobotsTXT: true
+
+# Un seul arbre de contenu, billets FR et EN mélangés (stratégie "par billet")
+languages:
+  fr:
+    languageName: "Français"
+    weight: 1
+
+pagination:
+  pagerSize: 10
+
+params:
+  env: production
+  description: "M365, Intune, Entra ID — documentation technique d'un admin MSP au Québec"
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  homeInfoParams:
+    Title: "Steve Daigle"
+    Content: >
+      Administrateur système chez un MSP au Québec.
+      Documentation technique M365/Azure : erreurs obscures, multi-tenant, contexte canadien.
+  socialIcons:
+    - name: github
+      url: "https://github.com/TON-USER"
+    - name: linkedin
+      url: "https://linkedin.com/in/TON-PROFIL"
+    - name: rss
+      url: "/index.xml"
+
+taxonomies:
+  category: categories
+  tag: tags
+
+markup:
+  highlight:
+    style: monokai
+    lineNos: false
+
+outputs:
+  home: [HTML, RSS]
+
+sitemap:
+  changefreq: weekly
