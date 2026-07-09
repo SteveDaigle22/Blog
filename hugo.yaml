@@ -22,6 +22,8 @@ params:
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
   ShowToc: true
+  assets:
+    disableFingerprinting: true
   homeInfoParams:
     Title: "Steve Daigle"
     Content: >
