@@ -1,7 +1,7 @@
 ---
 title: "Billet de test1"
 date: 2026-07-08
-draft: true
+draft: false
 categories: [Intune]
 tags: [test]
 ---
