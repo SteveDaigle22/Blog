@@ -25,17 +25,24 @@ params:
   assets:
     disableFingerprinting: true
   homeInfoParams:
-    Title: "Steve Daigle"
+    Title: "Microsoft 365 pour les TI du Québec"
     Content: >
-      Administrateur système chez un MSP au Québec.
-      Documentation technique M365/Azure : erreurs obscures, multi-tenant, contexte canadien.
+      Dépannage, configurations et scripts PowerShell pour les environnements
+      Microsoft 365 — avec le contexte d'ici : Loi 25, tenants bilingues,
+      réalité MSP multi-clients.
   socialIcons:
     - name: github
-      url: "https://github.com/TON-USER"
+      url: "https://github.com/SteveDaigle22"
     - name: linkedin
-      url: "https://linkedin.com/in/TON-PROFIL"
+      url: "https://www.linkedin.com/in/steve-daigle"
     - name: rss
       url: "/index.xml"
+
+menus:
+  main:
+    - name: À propos
+      url: /a-propos/
+      weight: 10
 
 taxonomies:
   category: categories
